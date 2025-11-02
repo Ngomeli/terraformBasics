@@ -36,7 +36,7 @@ variable "app_instance_type" {
 variable "app_ami" {
   description = "AMI for app nodes (must be valid in the region)."
   type        = string
-  default     = "ami-080c353f4798a202f" # example (change)
+  default     = "ami-0b49151c9c34180b6" # example (change)
 }
 
 variable "ssh_key_name" {
